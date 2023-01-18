@@ -1,2 +1,1 @@
-# trybe-exercicios
-pasta/exercicios
+# Portifólio de exercícios Trybe!!
