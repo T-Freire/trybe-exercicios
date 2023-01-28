@@ -1,15 +1,20 @@
 
 
-//Utilize o for para imprimir os elementos da lista groceryList com o console.log():
-let groceryList = ['Arroz', 'Feijão', 'Alface', 'Melancia'];
+/*let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+let result = 0;
 
-for(let indice = 0; indice < groceryList.length; indice+= 1) {
-    console.log(groceryList[indice]);
+for (let index = 0; index < numbers.length; index += 1) {
+  result += numbers[index];
 }
 
-let names = ['João', 'Maria', 'Antônio', 'Margarida'];
-for (let nomes of names){
-    console.log(nomes);
-}
+result = result / numbers.length;
 
-xxxxx
+let menu = ['Home', 'Serviços', 'Portfólio', 'Links'];
+let menuServices = menu[1];
+menuServices = menu.indexOf('Serviços');
+
+console.log(menuServices);
+//////////////////////////////////////////////////////////////
+
+let menu = ['Home', 'Serviços', 'Portfólio', 'Links'];
+let indexOfPortfolio =  menu.
