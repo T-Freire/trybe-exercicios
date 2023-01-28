@@ -7,7 +7,7 @@ Altere o valor atribuído à constante birthCity. Faça um console.log(birthCity
 
 const myName = 'Thiago Freire de Oliveira';
 const birthCity = 'São Paulo';
-birthCity = 'Nova York' //********NÃO É PERMITIDO MUDAR CONSTANTES******//
+birthCity = 'Los Angeles' //********NÃO É PERMITIDO MUDAR CONSTANTES******//
 let birthYear = 1988;
 birthYear = 2030; // ************Alterando ano********** //
 console.log(' Me chamo ' + myName + ', nasci na cidade de ' + birthCity + ' e meu ano de nascimento é ' + birthYear);
