@@ -1,0 +1,88 @@
+.meunome {
+    text-align: center;
+    background-color: yellow;
+    font-weight: bolder;
+    margin: 10px;
+    font-size: 1.5em;
+    border: 5px;
+    border-style: solid;
+    border-color: red;
+    padding: 5px;
+  
+  }
+  
+  .meunome:active {
+    color: red;
+  }
+  
+  body {
+    background-color: aquamarine;
+  }
+  
+  .descricao {
+    width: 500px;
+    padding: 15px;
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 25px;
+    background-color: red;
+    border: 5px;
+    border-style: solid;
+    border-color: black;
+    color: white;
+    position: absolute;
+    right: 520px;
+    margin: 35px;
+    text-decoration: underline;
+  
+  }
+  
+  .descricao:active {
+    color: yellow;
+  }
+  
+  
+  
+  .minhafoto {
+    position: absolute;
+    right: 200px;
+    top: 165px;
+    margin: 30px;
+  }
+  
+  .listaLadoDireito {
+  position: absolute;
+  top: 490px;
+  right: 260px;
+  
+  
+  }
+  
+  
+  .listaLadoEsquerdo {
+  position: absolute;
+  top: 490px;
+  right: 730px;
+  
+  
+  }
+  
+  ul li p {
+  font-family: monospace;
+  font-size: 15px;
+  color: crimson;
+  
+  }
+  
+  ol li p {
+    font-family: monospace;
+    font-size: 15px;
+    color: crimson;
+    
+  
+  }
+  
+  h3 {
+    background-color: yellow;
+  }
+  
