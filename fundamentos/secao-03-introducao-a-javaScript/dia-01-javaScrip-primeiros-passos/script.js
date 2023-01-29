@@ -53,3 +53,85 @@ if (notaPessoaCandidata >= 80) {
 
 }
 
+/*Nos exercícios de hoje, você vai elaborar alguns códigos de acordo com o que é pedido no enunciado. Todos trabalham a lógica condicional (if/else e switch/case), operadores aritméticos (+, -, *, /, %) e operadores lógicos (>, <, &&, ||). Para que consiga executar seus códigos, recomendamos que utilize a extensão Code Runner. Você pode ver mais sobre ela no conteúdo que fizemos sobre o uso do VS Code.
+
+Elabore alguns códigos e imprima o resultado no console usando o console.log, um para cada operação aritmética básica. Seu código deve ter duas constantes, a e b, definidas no começo com os valores que serão operados. Escreva códigos para:
+Adição (a + b)
+Subtração (a - b)
+Multiplicação (a * b)
+Divisão (a / b)
+Módulo (a % b)*/
+
+const a = 15;
+const b = 5;
+
+console.log ('A soma é ' + (a + b));
+console.log('A subtração é ' + (a - b));
+console.log ('A multiplicação é ' + (a + b));
+console.log ('A divisão é ' + (a/b));
+console.log ('A Módulação é ' + (a % b));
+
+
+/*Utilize if/else para escrever um código que retorne o maior de dois números. Defina, no começo do seu código, duas constantes com os valores que serão comparados.*/
+
+const numero1 = 23;
+const numro2 = 40;
+
+if (numero1 < numro2) {
+    console.log (numero1 + ' é menor que o número ' + numro2);
+} else if (numro2 > numero1) {
+    console.log (numero2 + ' é maior que o ' + numero1)
+} else {
+    console.log ('Operação inválida!');
+}
+
+/*Utilize if/else para escrever um código que retorne o maior de três números. Defina, no começo do seu código, três constantes com os valores que serão comparados.*/
+
+const numeroA = 30;
+const numeroB = 45;
+const numeroC = 12;
+
+if (numeroA > numeroB && numeroC) {
+    console.log (numeroA + 'não é o maior número ');
+} else if (numeroB > numeroA && numeroC) {
+    console.log (numeroB + ' é o maior número! ');
+} else if (numeroC > numeroA && numeroB) {
+    console.log (numeroC + ' não é o maior número ' );
+} else {
+    console.log ('Porfavor digite uma opção válida');
+}
+
+/*Utilize if/else para escrever um código que, dado um valor recebido como parâmetro, retorne “positive” se esse valor for positivo, “negative” se for negativo, e caso não seja nem positivo e nem negativo retorne “zero”.*/
+
+let valor1 = 6;
+
+if (valor1 > 0) {
+    console.log (' Valor positivo');
+} else if (valor1 < 0) {
+    console.log (' valor negativo ');
+} else {
+    console.log ('zero');
+}
+
+/*Utilize if/else para escrever um código que defina três constantes com os valores dos três ângulos internos de um triângulo. Retorne true se os ângulos representarem os ângulos de um triângulo e false, caso contrário. Se algum ângulo for inválido, você deve retornar uma mensagem de erro.
+Para os ângulos serem de um triângulo válido, a soma dos três deve ser 180 graus.
+
+Um ângulo será considerado inválido se não tiver um valor positivo.*/
+
+const anguloX = 100;
+const anguloY = 60;
+const anguloZ = 20;
+
+let somaDosAngulos = anguloX + anguloY + anguloZ;
+
+let angulosPositivos = anguloX > 0 && anguloY > 0 && anguloZ > 0;
+
+if(angulosPositivos){
+  if (somaDosAngulos === 180) {
+    console.log(true);
+  } else {
+    console.log(false);
+  };
+} else {
+  console.log('Erro: ângulo inválido');
+}
