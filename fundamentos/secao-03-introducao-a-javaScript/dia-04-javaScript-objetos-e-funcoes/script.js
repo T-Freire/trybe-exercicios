@@ -30,3 +30,25 @@ let player = {
 
 console.log (' A jogador ' + player.name + ' ' + player.lastName + ' tem ' + player.age + ' de idade');
 console.log('A jogadora possui ' + player.medals.golden + ' medalhas de ouro e ' + player.medals.silver + ' medalhas de prata.');
+
+
+let names = {
+    person1: 'João',
+    person2: 'Maria',
+    person3: 'Jorge',
+  };
+
+  for (let key in names) {
+    console.log ('Olá ' + names[key]);
+  }
+
+
+  let car = {
+    model: 'A3 Sedan',
+    manufacturer: 'Audi',
+    year: 2020
+  };
+
+  for (let key in car) {
+    console.log (car[key]);
+  }
