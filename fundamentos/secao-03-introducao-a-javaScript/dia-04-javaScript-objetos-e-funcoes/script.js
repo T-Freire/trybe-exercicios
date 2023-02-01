@@ -52,3 +52,76 @@ let names = {
   for (let key in car) {
     console.log (car[key]);
   }
+
+  /*Faça cinco programas, um para cada operação aritmética básica. Seu programa deve ter duas constantes, a e b, definidas no começo com os valores que serão operados. Faça programas para:
+
+  Adição (a + b)
+  Subtração (a - b)
+  Multiplicação (a * b)
+  Divisão (a / b)
+  Módulo (a % b)*/
+
+ 
+
+  function somaTotal (a, b) {
+    let resultado = (a - b);
+    return resultado;
+    
+  } 
+  console.log (somaTotal(10, 40));
+  /*Faça um programa que retorne o maior de dois números. Defina, no começo do programa, duas constantes com os valores que serão comparados.*/
+
+  
+
+  function comparaValores (valor1, valor2) {
+    
+    if (valor1 > valor2) {
+      return 'O ' + valor1 + ' não é maior que ' + valor2;
+    } else {
+      return valor2 + ' é maior dos valores comparados';
+    }
+
+  }
+
+  console.log (comparaValores(20, 70));
+
+
+  /*Faça um programa que, dado um valor recebido como parâmetro, retorne “positive” se esse valor for positivo, “negative” se for negativo, e caso não seja nem positivo e nem negativo retorne “zero”.*/
+
+  function jogoDaVerdade (valor1) {
+
+    if (valor1 >0) {
+      return 'Valor positvo';
+    } else if (valor1 <0) {
+      return 'Valor negativo';
+    } else {
+      return 'Zero';
+    }
+
+    }
+  console.log (jogoDaVerdade(0));
+
+
+
+
+  function imprimeIdade() {
+    for (let idade = 30; idade <= 40; idade += 1) {
+      console.log('Idade dentro do for:', idade)
+    }
+    c
+  }
+  imprimeIdade()
+
+
+    // Executando esse código iremos receber um erro `TypeError: Assignment to constant variable.`
+ 
+
+
+    const pessoa = {
+      nome: 'Henri',
+      idade: 20
+    }
+    pessoa.nome = 'Luna'
+    pessoa.idade = 19
+    console.log('Nome:', pessoa.nome)
+    console.log('Idade:', pessoa.idade)
