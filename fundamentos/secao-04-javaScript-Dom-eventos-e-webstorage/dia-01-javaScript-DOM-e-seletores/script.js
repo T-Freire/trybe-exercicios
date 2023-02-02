@@ -1,0 +1,10 @@
+//const paragraph = document.getElementById("paragraph");
+//paragraph.style.color = "red";
+document.getElementById("page-title").innerText = "Os 10 melhores Filmes";
+//document.getElementById("paragraph");
+//paragraph.style.color = "red";
+document.getElementById("subtitle").innerText = 'Classificação: filmes de Gangasters';
+//document.getElementById("paragraph").innerText = 'O poderoso Chefão';
+const paragraph = document.getElementsByClassName("paragraph");
+paragraph[0].innerText = 'Alteraçõe PRA JÁ';
+paragraph[1].style.color = "red";
