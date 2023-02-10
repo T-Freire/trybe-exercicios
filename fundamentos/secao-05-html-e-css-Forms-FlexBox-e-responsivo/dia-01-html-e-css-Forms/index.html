@@ -5,24 +5,73 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form action="" method="GET">
-    <h1>Formulário</h1>
+    <header id="header">
+        <h1 class="display-5"Display 5>Formulário</h1>
+    </header>
+
+    <!--PARTE 1 Email e Senha-->
+    <form action="" method="GET" id="myForm" enctype="multipart/form-data">
+
+    <section>
     <p>Infome seu email:</p>
-    <label for="email-form"><input type="email" autocomplete="off" autofocus name="campo-email" id="email-form" required></label>
-    <p>Digite sua senha:</p>
-    <label for="senha-pessoal"><input type="password" name="senha" id="senha-pessoal" required></label>
+    <label for="email-form"><input type="email" autocomplete="off" class="form-control" autofocus placeholder="Digite seu email" name="campo-email" id="email-form" required></label>
+    </section>
     <br>
-    <button type="submit">Entrar</button>
+
+    <section>
+    <p>Digite sua senha:</p>
+    <label for="senha-pessoal"><input type="password" autocomplete="off" name="senha" class="form-control" id="senha-pessoal" placeholder="Digite sua senha" required></label>
+    </section>
+    <br>
+
+    <!--PARTE 2 BOTÕES-->
+    <section>
+    <button type="submit" class="btn btn-success">Entrar</button>
+    </section>
+    <br>
+
+    <!--PARTE 3 Checkbox-->
+    <section>
     <p>Quais seus esportes favorito(s):</p>
-    <label for="esportes.1"><input type="checkBox" value="Fut" name="esporte" id="esportes.1" checked>Futebol</label>
-    <label for="esportes.2"><input type="checkBox" value="Vol" name="esporte" id="esportes.2">Voleibol</label>
-    <label for="esportes.3"><input type="checkBox" value="Bas" name="esporte" id="esportes.3">Basquete</label>
-    <label for="esportes.4"><input type="checkBox" value="Ten" name="esporte" id="esportes.4">Tênis</label>
-    <label for="esportes.5"><input type="checkBox" value="FutAm" name="esporte" id="esportes.5">Futebol Americano</label>
+    <label for="esportes.1"><input class="form-check-input mt-0" type="checkBox" value="Fut" name="esporte" id="esportes.1" checked>Futebol</label>
+    <label for="esportes.2"><input class="form-check-input mt-0" type="checkBox" value="Vol" name="esporte" id="esportes.2">Voleibol</label>
+    <label for="esportes.3"><input class="form-check-input mt-0" type="checkBox" value="Bas" name="esporte" id="esportes.3">Basquete</label>
+    <label for="esportes.4"><input class="form-check-input mt-0" type="checkBox" value="Ten" name="esporte" id="esportes.4">Tênis</label>
+    <label for="esportes.5"><input class="form-check-input mt-0" type="checkBox" value="FutAm" name="esporte" id="esportes.5">Futebol Americano</label>
+    </section>
+    <br>
+
+    <!--PARTE 4 TextArea-->
+    <section>
     <p>Fale sobre suas experiências no esporte(s):</p>
-    <textarea name="" id="text-area" cols="30" rows="10" placeholder="Comente em 15 linhas os maiores beneficios de praticar esportes"></textarea>
+    <textarea name="" id="text-area" cols="30" rows="10" class="form-control" placeholder="Comente em poucas palavras os maiores beneficios de praticar esportes"></textarea>
+    </section>
+
+    <br>
+
+    <!--Parte 5 DropDown-->
+    <section>
+    <label for="input-estado">Estado onde mora: 
+    <select name="estado" id="input-estado">
+        <option value="Sp" selected>São Paulo</option>
+        <option value="Rj">Rio de Janeiro</option>
+        <option value="Ba">Bahia</option>
+        <option value="Mg">Minas Gerais</option>
+    </select>
+</label>
+    </section>
+
+<br>
+
+<!--Parte 6 File(Arquivos)-->
+<section>
+<p>Selecione sua foto:</p>
+<input type="file" name="foto" id="foto-perfil">
+</section>
 
     </form>
     
