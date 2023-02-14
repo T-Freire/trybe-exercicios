@@ -1,6 +1,12 @@
-p {
-    display: inline;
-    
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.email , .senha {
+    display: flex;
+    flex-flow: row wrap;
+
 }
 
 
